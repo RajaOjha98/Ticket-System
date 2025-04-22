@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Helpdesk Ticketing System
 
 A full-featured helpdesk web application built with the MERN stack (MongoDB, Express, React, Node.js).
@@ -111,3 +112,7 @@ A full-featured helpdesk web application built with the MERN stack (MongoDB, Exp
 ## License
 
 MIT 
+=======
+# Ticket-System
+The app will feature two main sections accessible via a left-side menu: Tickets and Customers.
+>>>>>>> 2c6da07fd83aba5a76c7e58edf08f3a6442156ca

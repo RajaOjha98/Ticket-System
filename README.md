@@ -1,6 +1,6 @@
-# 🎫 Helpdesk Ticketing System
+# 🚀 DeskFlow - Professional Helpdesk Ticketing System
 
-A comprehensive, full-stack helpdesk ticketing system built with the MERN stack (MongoDB, Express.js, React, Node.js) and Material-UI. This application provides a complete solution for managing customer support tickets with role-based access control, real-time updates, and file attachment support.
+A comprehensive, full-stack helpdesk ticketing system built with the MERN stack (MongoDB, Express.js, React, Node.js) and Material-UI. **DeskFlow** provides a complete solution for managing customer support tickets with role-based access control, real-time updates, and file attachment support.
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![Node](https://img.shields.io/badge/node-%3E%3D16.0.0-brightgreen.svg)
@@ -36,8 +36,9 @@ A comprehensive, full-stack helpdesk ticketing system built with the MERN stack 
 - **Real-time data updates**
 
 ### 🎨 User Interface
+- **Professional DeskFlow branding** with custom logo design
 - **Responsive Material-UI design** optimized for all devices
-- **Dark/Light theme support**
+- **Modern color scheme** with blue primary (#2196F3) theme
 - **Intuitive navigation** with role-based menu items
 - **Real-time notifications** and error handling
 - **Professional, modern interface**
@@ -66,6 +67,14 @@ A comprehensive, full-stack helpdesk ticketing system built with the MERN stack 
 - ✅ View system statistics and analytics
 - ✅ Delete users and tickets
 - ✅ Full system administration
+
+## 🎨 Branding & Design
+
+**DeskFlow** features a professional, modern design with:
+- **Custom Logo Design**: Combines support (headphones) and flow (efficiency) elements
+- **Color Scheme**: Primary blue (#2196F3) with professional typography
+- **Responsive Layout**: Optimized for desktop, tablet, and mobile devices
+- **Material-UI Components**: Consistent, accessible, and modern interface elements
 
 ## 🚀 Getting Started
 

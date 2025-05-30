@@ -14,6 +14,7 @@ import {
   Alert
 } from '@mui/material';
 import PersonAddIcon from '@mui/icons-material/PersonAdd';
+import LogoIcon from '../assets/logo-icon.svg';
 
 const Register = () => {
   const { register: registerUser } = useContext(AuthContext);
@@ -57,11 +58,23 @@ const Register = () => {
           alignItems: 'center' 
         }}
       >
+        {/* Logo and Brand */}
+        <Box sx={{ display: 'flex', alignItems: 'center', mb: 2 }}>
+          <img 
+            src={LogoIcon} 
+            alt="DeskFlow" 
+            style={{ width: 40, height: 40, marginRight: 8 }}
+          />
+          <Typography variant="h5" sx={{ fontWeight: 600, color: '#2196F3' }}>
+            DeskFlow
+          </Typography>
+        </Box>
+        
         <Avatar sx={{ m: 1, bgcolor: 'secondary.main' }}>
           <PersonAddIcon />
         </Avatar>
         <Typography component="h1" variant="h5">
-          Create Account
+          Create your account
         </Typography>
         
         {error && (

@@ -14,6 +14,7 @@ import {
   Alert
 } from '@mui/material';
 import LockOutlinedIcon from '@mui/icons-material/LockOutlined';
+import LogoIcon from '../assets/logo-icon.svg';
 
 const Login = () => {
   const { login } = useContext(AuthContext);
@@ -49,11 +50,22 @@ const Login = () => {
           alignItems: 'center' 
         }}
       >
+        <Box sx={{ display: 'flex', alignItems: 'center', mb: 2 }}>
+          <img 
+            src={LogoIcon} 
+            alt="DeskFlow" 
+            style={{ width: 40, height: 40, marginRight: 8 }}
+          />
+          <Typography variant="h5" sx={{ fontWeight: 600, color: '#2196F3' }}>
+            DeskFlow
+          </Typography>
+        </Box>
+        
         <Avatar sx={{ m: 1, bgcolor: 'primary.main' }}>
           <LockOutlinedIcon />
         </Avatar>
         <Typography component="h1" variant="h5">
-          Sign in
+          Sign in to your account
         </Typography>
         
         {error && (

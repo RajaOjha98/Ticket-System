@@ -1,7 +1,7 @@
 {
-  "name": "server",
+  "name": "deskflow-server",
   "version": "1.0.0",
-  "description": "",
+  "description": "DeskFlow - Professional Helpdesk Ticketing System Backend API",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
@@ -10,9 +10,9 @@
     "create-agent": "node scripts/createAgent.js",
     "create-admin": "node scripts/createAdmin.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": ["helpdesk", "ticketing", "customer-support", "api", "nodejs", "express"],
+  "author": "DeskFlow Team",
+  "license": "MIT",
   "type": "commonjs",
   "dependencies": {
     "bcryptjs": "^3.0.2",

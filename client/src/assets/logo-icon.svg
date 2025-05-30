@@ -1,0 +1,10 @@
+<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <circle cx="20" cy="20" r="18" fill="#2196F3" opacity="0.15"/>
+  
+  <!-- Headphones/Support icon -->
+  <path d="M20 8C14.477 8 10 12.477 10 18V24C10 25.104 10.896 26 12 26H14C15.104 26 16 25.104 16 24V21C16 19.896 15.104 19 14 19H12.15C12.575 13.799 16.458 10 20 10C23.542 10 27.425 13.799 27.85 19H26C24.896 19 24 19.896 24 21V24C24 25.104 24.896 26 26 26H28C29.104 26 30 25.104 30 24V18C30 12.477 25.523 8 20 8Z" fill="#2196F3"/>
+  
+  <!-- Flow arrow -->
+  <path d="M32 20L35 22L32 24" stroke="#2196F3" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg> 

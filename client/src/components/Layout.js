@@ -29,6 +29,7 @@ import {
   ExitToApp as LogoutIcon
 } from '@mui/icons-material';
 import AuthContext from '../context/AuthContext';
+import LogoIcon from '../assets/logo-icon.svg';
 
 const drawerWidth = 240;
 
@@ -63,9 +64,14 @@ function Layout() {
 
   const drawer = (
     <div>
-      <Toolbar>
-        <Typography variant="h6" noWrap component="div">
-          Helpdesk
+      <Toolbar sx={{ display: 'flex', alignItems: 'center', gap: 1, px: 2 }}>
+        <img 
+          src={LogoIcon} 
+          alt="DeskFlow" 
+          style={{ width: 32, height: 32 }}
+        />
+        <Typography variant="h6" noWrap component="div" sx={{ fontWeight: 600, color: '#2196F3' }}>
+          DeskFlow
         </Typography>
       </Toolbar>
       <Divider />

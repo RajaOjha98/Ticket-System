@@ -3,6 +3,9 @@ import { jwtDecode } from 'jwt-decode';
 import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
 
+// Set axios base URL from environment variable, fallback to root
+axios.defaults.baseURL = process.env.REACT_APP_API_URL || '/';
+
 const AuthContext = createContext();
 
 export const AuthProvider = ({ children }) => {
